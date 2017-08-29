@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Aller;
+    src: url("../fonts/Aller.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: Prociono;
+    src: url("../fonts/prociono/Prociono-Regular.ttf");
+}
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    font-size: 30px;
+    height: 100px;
+    background: #e6e6e6;
+    -webkit-box-shadow: 1px 1px 23px 0px #219e9a;
+    -moz-box-shadow: 1px 1px 23px 0px #219e9a;
+    box-shadow: 1px 1px 23px 0px #219e9a;
+    text-shadow: 3px 1px 5px #150101;
+}
+#title h1{
+    color: #219e9a;
+    font-family: Aller;
+    padding-top: 21px;
+}
+.my-work{
+    padding-top: 30px;
+}
+.my-work h4, .team h4{
+    text-align: center;
+    font-family: Roboto;
+    padding: 10px;
+}
+.my-work p{
+    font-family: Roboto;
+    padding-left: 10px;
+    width: 800px;
+}
+.my-work p:first-of-type{
+    padding-top: 30px;
+}
+
+.team{
+    background: url("../img/background1.png");
+    padding-bottom: 10px;
+}
+.team p{
+    font-family: Prociono;
+    padding-left: 15px;
+}
+.team p span{
+    color: #21929a;
+}
+footer{
+    font-family: Prociono;
+    color: white;
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer b{
+    color: #21929a;
+}
+@media (max-width: 900px) {
+    #title{
+        height: 130px;
+        font-size: 20px;
+    }
+    .my-work p{
+        width: 500px;
+    }
+}
